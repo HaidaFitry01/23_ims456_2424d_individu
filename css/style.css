@@ -1,0 +1,226 @@
+body
+{
+    background-color:rgb(194, 84, 117);
+
+}
+
+h1
+{
+    color:rgb(10, 1, 3);
+}
+
+h2
+{
+    color:rgb(10, 1, 3);
+}
+
+a
+    {
+        text-decoration:none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 10px;
+        font: size 35px;
+    }
+
+    a:hover
+    {
+        color:rgb(12, 12, 12);
+        font: size 40px;
+    }
+    
+.header
+{
+    width: 100%;
+    background-color:rgb(243, 238, 240);
+    padding-bottom:8px;
+}
+.slider
+{
+width: 100%;
+background-color:rgb(0, 0, 0);
+}
+
+.content
+{
+    text-align: justify;
+    font-family: 'poppin', Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+table, tr, td, th 
+{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+td
+{
+    padding: 10px;
+}
+
+tr
+{
+    background-color: bisque;
+}
+
+
+tr:nth-child(odd)
+    {
+            background-color: azure;
+    }
+
+th
+    {
+        background-color: lightgoldenrodyellow;
+        color: rgb(0, 0, 0);
+    }
+
+
+
+tr:hover
+    {
+        background-color: rgb(121, 49, 49);
+    }
+
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 20px;
+      }
+      
+      .contact-info, .social-media {
+        margin-bottom: 30px;
+      }
+      
+      h2 {
+        color: #000000;
+      }
+      
+      .social-icons {
+        display: flex;
+        justify-content: center;
+      }
+      
+      .social-icons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff2f2;
+        background-color: #007bff;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 0 70px;
+        font-size: 50px;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      
+      .social-icons a:hover {
+        transform: scale(5.10);
+        box-shadow: 50 50 50px rgba(0, 0, 0, 0.3);
+      }
+      
+      .social-icons .facebook {
+        background-color: #2a4bb9;
+      }
+      
+      .social-icons .linkedin {
+
+        background-color: #0077b5;
+      }
+      
+      .social-icons .instagram {
+        background-color: #e4405f;
+      }
+
+    /* Add some basic styles for the hobby-container and hobby-card */
+.hobby-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hobby-card {
+    width: 300px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.hobby-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.hobby-card h6 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.hobby-card p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d1778a;
+}
+
+.family-list {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.family-member {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.family-member:hover {
+    transform: translateY(-5px);
+}
+
+.member-image {
+    position: relative;
+}
+
+.member-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.member-details {
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #1f1514;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    color: #8d6e63;
+}
+
+/* Styling for the audio player */
+audio {
+    width: 25%;
+    margin-top: 20px;
+}
+
